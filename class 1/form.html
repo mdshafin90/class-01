@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>This is For Form class only</h1>
+    <form action="submit">
+      <!-- first name -->
+      <label for="firstName">First Name</label>
+      <input
+        type="text"
+        name="firstName"
+        id="firstName"
+        placeholder="enter your first name"
+      />
+      <br />
+      <!-- last name -->
+      <label for="lastName">Last Name</label>
+      <input
+        type="text"
+        name="lastName"
+        id="lastName"
+        placeholder="enter your last name"
+      />
+      <br />
+      <!-- age -->
+      <label for="age">Age</label>
+      <input
+        type="number"
+        name="age"
+        id="age"
+        placeholder="enter your age"
+        required
+      />
+
+      <br />
+      <!-- email -->
+      <label for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="example@gmail.com"
+        required
+      />
+
+      <br />
+      <label for="date">Date</label>
+      <input type="date" name="date" id="date" required />
+      <br />
+      <!-- This is Submit button -->
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
