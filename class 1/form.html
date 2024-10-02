@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <h1>This is For Form class only</h1>
@@ -51,8 +52,22 @@
       <label for="date">Date</label>
       <input type="date" name="date" id="date" required />
       <br />
+      <input type="checkbox" name="checkbox" id="checkbox" required />
       <!-- This is Submit button -->
       <input type="submit" value="Submit" />
     </form>
+
+    <div id="form-submit">
+      <form action="https://www.google.com/search">
+        <input type="text" name="q" placeholder="search anything" />
+        <input type="submit" value="Goggle Search" />
+      </form>
+    </div>
+    <div id="form-submit2">
+      <form action="https://www.youtube.com/watch">
+        <input type="text" name="v" placeholder="search anything" />
+        <input type="submit" value="YT Search" />
+      </form>
+    </div>
   </body>
 </html>
