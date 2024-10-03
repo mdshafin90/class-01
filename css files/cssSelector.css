@@ -1,0 +1,36 @@
+h1 {
+  color: brown;
+}
+
+.cl-fire {
+  color: blue;
+}
+
+#id-fire {
+  color: crimson;
+}
+
+ol li a {
+  color: crimson;
+}
+
+h2 + button {
+  color: green;
+  /* background-color: yellow; */
+}
+
+#submit {
+  font-size: 20px;
+  font-family: cursive;
+  text-transform: uppercase;
+  background-color: chocolate;
+  padding: 10px 20px;
+  border-radius: 60px;
+  border: none;
+  color: wheat;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: black;
+}
