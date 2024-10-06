@@ -1,0 +1,38 @@
+* {
+  font-size: 28px;
+}
+
+.one::first-letter {
+  font-size: 40px;
+  font-weight: 900;
+  font-family: cursive;
+  color: blue;
+}
+
+.one::first-line {
+  font-size: 40px;
+  color: blue;
+}
+
+.one::selection {
+  background-color: crimson;
+  color: white;
+}
+
+.sign_in_button {
+  border: none;
+  background-color: black;
+  color: wheat;
+  cursor: pointer;
+}
+
+.sign_in_button:hover {
+  background-color: crimson;
+  color: white;
+  border: none;
+}
+
+.sign_in_button:active {
+  background-color: yellow;
+  color: black;
+}
